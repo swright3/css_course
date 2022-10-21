@@ -4,22 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
+.container {
+    border: 20px dashed red;
+    border-top-style: solid;
+    border-bottom-width: 5px;
+    border-left-color: green;
+    padding: 1.5em;
+    margin: 1.5em;
+    font-size: 1.5rem;
 }
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-}
-
-main {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    width: 40ch;
-}
