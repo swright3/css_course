@@ -5,3 +5,18 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+ol {
+  list-style-type: circle;
+}
+
+ul {
+  text-align: center;
+  list-style-position: outside;
+}
+
+ul ::marker {
+  color: red;
+  font-size: 2em;
+  content: "==>";
+}
